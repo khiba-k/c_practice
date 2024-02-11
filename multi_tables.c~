@@ -1,0 +1,23 @@
+include <stdio.h>
+
+int main() {
+  
+  printf("Enter number here:");
+  int inputNum;
+
+  scanf("%d", &inputNum);
+
+  printf("%d * 1 = %d\n", inputNum, inputNum * 1);
+  printf("%d * 2 = %d\n", inputNum, inputNum * 2);
+  printf("%d * 3 = %d\n", inputNum, inputNum * 3);
+  printf("%d * 4 = %d\n", inputNum, inputNum * 4);
+  printf("%d * 5 = %d\n", inputNum, inputNum * 5);
+  printf("%d * 6 = %d\n", inputNum, inputNum * 6);
+  printf("%d * 7 = %d\n", inputNum, inputNum * 7);
+  printf("%d * 8 = %d\n", inputNum, inputNum * 8);
+  printf("%d * 9 = %d\n", inputNum, inputNum * 9);
+  printf("%d * 10 = %d\n", inputNum, inputNum * 10);
+   
+  return 0;
+
+}
